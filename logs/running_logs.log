@@ -1118,3 +1118,106 @@ x==========x]
 [2026-06-17 22:34:48,775: INFO: stage_04_model_evaluation_pipeline: >>>>>> stage Evaluation stage completed <<<<<<
 
 x==========x]
+[2026-06-17 22:46:21,326: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2026-06-17 22:46:21,332: INFO: helpers: Accessing as Vasunavadiya90]
+[2026-06-17 22:46:23,747: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/repos/Vasunavadiya90/kidney_disease_classification_project "HTTP/1.1 200 OK"]
+[2026-06-17 22:46:25,168: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2026-06-17 22:46:25,170: INFO: helpers: Initialized MLflow to track repo "Vasunavadiya90/kidney_disease_classification_project"]
+[2026-06-17 22:46:25,170: INFO: helpers: Repository Vasunavadiya90/kidney_disease_classification_project initialized!]
+[2026-06-17 22:46:25,170: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-06-17 22:46:25,171: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-17 22:46:25,172: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-17 22:46:25,172: INFO: common: created directory at: artifacts]
+[2026-06-17 22:46:25,173: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-06-17 22:46:25,173: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1Wh3cfCrcKPzGAqhxdvS2xbGeAnjEtQN-/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2026-06-17 22:46:38,615: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1Wh3cfCrcKPzGAqhxdvS2xbGeAnjEtQN-/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2026-06-17 22:46:39,073: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-06-17 22:46:39,073: INFO: main: *******************]
+[2026-06-17 22:46:39,073: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2026-06-17 22:46:39,074: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-17 22:46:39,074: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-17 22:46:39,075: INFO: common: created directory at: artifacts]
+[2026-06-17 22:46:39,075: INFO: common: created directory at: artifacts/prepare_base_model]
+[2026-06-17 22:46:39,355: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2026-06-17 22:46:39,510: WARNING: config: TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.]
+[2026-06-17 22:46:39,521: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2026-06-17 22:46:39,624: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2026-06-17 22:46:39,625: INFO: main: *******************]
+[2026-06-17 22:46:39,625: INFO: main: >>>>>> stage Training started <<<<<<]
+[2026-06-17 22:46:39,626: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-17 22:46:39,627: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-17 22:46:39,627: INFO: common: created directory at: artifacts]
+[2026-06-17 22:46:39,627: INFO: common: created directory at: artifacts\training]
+[2026-06-17 22:47:12,868: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2026-06-17 22:47:12,966: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2026-06-17 22:47:12,966: INFO: main: *******************]
+[2026-06-17 22:47:12,967: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2026-06-17 22:47:12,967: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-17 22:47:12,968: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-17 22:47:12,968: INFO: common: created directory at: artifacts]
+[2026-06-17 22:47:13,101: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2026-06-17 22:47:23,227: INFO: common: json file saved at: scores.json]
+[2026-06-17 22:47:23,228: INFO: common: json file saved at: scores.json]
+[2026-06-17 22:48:04,792: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2026-06-17 22:49:48,967: ERROR: utils: Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+]
+[2026-06-17 22:49:54,838: ERROR: utils: Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+]
+[2026-06-17 22:50:04,419: ERROR: utils: Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+]
+[2026-06-17 22:50:11,327: ERROR: utils: Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+]
+[2026-06-17 22:50:20,158: ERROR: utils: Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+]
+[2026-06-17 22:50:24,966: ERROR: utils: Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+]
+[2026-06-17 22:53:08,431: ERROR: utils: Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+]
+[2026-06-17 23:09:40,241: WARNING: config: TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.]
+[2026-06-17 23:09:40,249: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2026-06-17 23:09:48,545: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2026-06-17 23:14:10,108: WARNING: config: TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.]
+[2026-06-17 23:14:10,121: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2026-06-17 23:15:42,514: INFO: stage_04_model_evaluation_pipeline: *******************]
+[2026-06-17 23:15:42,514: INFO: stage_04_model_evaluation_pipeline: >>>>>> stage Evaluation stage started <<<<<<]
+[2026-06-17 23:15:42,515: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-17 23:15:42,516: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-17 23:15:42,517: INFO: common: created directory at: artifacts]
+[2026-06-17 23:15:43,246: WARNING: config: TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.]
+[2026-06-17 23:15:43,254: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2026-06-17 23:16:05,503: INFO: common: json file saved at: scores.json]
+[2026-06-17 23:16:05,503: INFO: common: json file saved at: scores.json]
+[2026-06-17 23:17:16,637: INFO: stage_04_model_evaluation_pipeline: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2026-06-17 23:23:39,542: WARNING: config: TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.]
+[2026-06-17 23:23:39,569: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]

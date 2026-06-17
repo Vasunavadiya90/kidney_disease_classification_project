@@ -13,8 +13,9 @@ ensure
 joblib
 types-PyYAML
 scipy
-Flask     
-Flask-Cors
+fastapi
+uvicorn[standard]
+python-multipart
 gdown
 dagshub
 -e .
