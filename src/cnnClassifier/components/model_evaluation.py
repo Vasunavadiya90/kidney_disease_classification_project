@@ -72,6 +72,7 @@ class Evaluation:
                 print("User:", os.getenv("MLFLOW_TRACKING_USERNAME"))
                 print("Tracking URI:", mlflow.get_tracking_uri())
                 print("MLflow logging successful!")
+                
         except Exception as e:
             print(f"Warning: MLflow logging failed: {e}")
             print("Model evaluation completed, but MLflow tracking is unavailable.")

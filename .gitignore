@@ -1,0 +1,26 @@
+# Virtual Environment
+kidney/
+venv/
+
+# Environment Variables
+.env
+
+# MLflow
+mlruns/
+
+# DVC Cache
+.dvc/cache/
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Artifacts
+artifacts/
