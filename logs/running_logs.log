@@ -1,1 +1,6 @@
 [2026-06-13 01:02:24,880: INFO: main: creating logs]
+[2026-06-17 10:33:56,690: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-17 10:33:56,714: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-17 10:33:56,715: INFO: common: created directory at: artifacts]
+[2026-06-17 10:33:56,716: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-06-17 10:33:56,717: INFO: data_ingestion: File already exists at artifacts/data_ingestion/data.zip, skipping download]

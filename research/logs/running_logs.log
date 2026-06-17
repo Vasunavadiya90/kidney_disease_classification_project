@@ -1,0 +1,98 @@
+[2026-06-17 10:04:34,704: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-17 10:04:34,706: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-17 10:05:01,124: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-17 10:05:01,138: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-17 10:05:01,140: INFO: common: created directory at: artifacts]
+[2026-06-17 10:05:01,142: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-06-17 10:05:01,143: INFO: 3172177572: Downloading data from https://drive.google.com/file/d/1Wh3cfCrcKPzGAqhxdvS2xbGeAnjEtQN-/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2026-06-17 10:11:49,285: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-17 10:11:49,288: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-17 10:11:49,289: INFO: common: created directory at: artifacts]
+[2026-06-17 10:11:49,291: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-06-17 10:11:49,293: INFO: 3812171282: Downloading data from https://drive.google.com/file/d/1Wh3cfCrcKPzGAqhxdvS2xbGeAnjEtQN-/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2026-06-17 10:11:52,432: ERROR: 3812171282: Download failed: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1Wh3cfCrcKPzGAqhxdvS2xbGeAnjEtQN-
+
+but Gdown can't. Please check connections and permissions.]
+[2026-06-17 10:11:52,433: ERROR: 3812171282: You can manually download from: https://drive.google.com/file/d/1Wh3cfCrcKPzGAqhxdvS2xbGeAnjEtQN-/view?usp=drive_link]
+[2026-06-17 10:11:52,434: ERROR: 3812171282: Please ensure the Google Drive link has sharing permissions set to 'Anyone with the link']
+[2026-06-17 10:12:21,645: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-17 10:12:21,648: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-17 10:12:21,649: INFO: common: created directory at: artifacts]
+[2026-06-17 10:12:21,651: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-06-17 10:12:21,653: INFO: 3812171282: Downloading data from https://drive.google.com/file/d/1Wh3cfCrcKPzGAqhxdvS2xbGeAnjEtQN-/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2026-06-17 10:12:24,708: ERROR: 3812171282: Download failed: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1Wh3cfCrcKPzGAqhxdvS2xbGeAnjEtQN-
+
+but Gdown can't. Please check connections and permissions.]
+[2026-06-17 10:12:24,709: ERROR: 3812171282: You can manually download from: https://drive.google.com/file/d/1Wh3cfCrcKPzGAqhxdvS2xbGeAnjEtQN-/view?usp=drive_link]
+[2026-06-17 10:12:24,710: ERROR: 3812171282: Please ensure the Google Drive link has sharing permissions set to 'Anyone with the link']
+[2026-06-17 10:13:10,435: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-17 10:13:10,437: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-17 10:13:10,438: INFO: common: created directory at: artifacts]
+[2026-06-17 10:13:10,440: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-06-17 10:13:10,441: INFO: 3812171282: File already exists at artifacts/data_ingestion/data.zip, skipping download]
+[2026-06-17 10:14:35,051: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-17 10:14:35,053: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-17 10:14:35,054: INFO: common: created directory at: artifacts]
+[2026-06-17 10:14:35,055: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-06-17 10:14:35,056: INFO: 3812171282: File already exists at artifacts/data_ingestion/data.zip, skipping download]
+[2026-06-17 10:16:07,476: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-17 10:16:07,478: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-17 10:16:07,481: INFO: common: created directory at: artifacts]
+[2026-06-17 10:16:07,482: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-06-17 10:16:07,483: INFO: 3812171282: File already exists at artifacts/data_ingestion/data.zip, skipping download]
+[2026-06-17 10:16:26,924: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-17 10:16:26,926: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-17 10:16:26,928: INFO: common: created directory at: artifacts]
+[2026-06-17 10:16:26,929: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-06-17 10:16:26,931: INFO: 3812171282: File already exists at artifacts/data_ingestion/data.zip, skipping download]
+[2026-06-17 10:16:47,705: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-17 10:16:47,708: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-17 10:16:47,720: INFO: common: created directory at: artifacts]
+[2026-06-17 10:16:47,722: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-06-17 10:16:47,724: INFO: 3812171282: Downloading data from https://drive.google.com/file/d/1Wh3cfCrcKPzGAqhxdvS2xbGeAnjEtQN-/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2026-06-17 10:16:49,239: ERROR: 3812171282: Download failed: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1Wh3cfCrcKPzGAqhxdvS2xbGeAnjEtQN-
+
+but Gdown can't. Please check connections and permissions.]
+[2026-06-17 10:16:49,242: ERROR: 3812171282: You can manually download from: https://drive.google.com/file/d/1Wh3cfCrcKPzGAqhxdvS2xbGeAnjEtQN-/view?usp=drive_link]
+[2026-06-17 10:16:49,245: ERROR: 3812171282: Please ensure the Google Drive link has sharing permissions set to 'Anyone with the link']
+[2026-06-17 10:19:35,705: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-17 10:19:35,708: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-17 10:19:35,709: INFO: common: created directory at: artifacts]
+[2026-06-17 10:19:35,711: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-06-17 10:19:35,712: INFO: 3812171282: Downloading data from https://drive.google.com/file/d/1Wh3cfCrcKPzGAqhxdvS2xbGeAnjEtQN-/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2026-06-17 10:19:48,555: INFO: 3812171282: Downloaded data from https://drive.google.com/file/d/1Wh3cfCrcKPzGAqhxdvS2xbGeAnjEtQN-/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2026-06-17 10:20:45,498: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-17 10:20:45,500: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-17 10:20:45,502: INFO: common: created directory at: artifacts]
+[2026-06-17 10:20:45,503: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-06-17 10:20:45,505: INFO: 3812171282: File already exists at artifacts/data_ingestion/data.zip, skipping download]
+[2026-06-17 10:21:01,032: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-17 10:21:01,034: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-17 10:21:01,035: INFO: common: created directory at: artifacts]
+[2026-06-17 10:21:01,037: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-06-17 10:21:01,039: INFO: 3812171282: Downloading data from https://drive.google.com/file/d/1Wh3cfCrcKPzGAqhxdvS2xbGeAnjEtQN-/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2026-06-17 10:21:14,044: INFO: 3812171282: Downloaded data from https://drive.google.com/file/d/1Wh3cfCrcKPzGAqhxdvS2xbGeAnjEtQN-/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
