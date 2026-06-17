@@ -804,3 +804,294 @@ mlflow.exceptions.MlflowException: The filesystem tracking backend (e.g., './mlr
 [2026-06-17 21:51:11,583: INFO: stage_04_model_evaluation_pipeline: >>>>>> stage Evaluation stage completed <<<<<<
 
 x==========x]
+[2026-06-17 22:05:25,314: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2026-06-17 22:05:25,322: INFO: helpers: Accessing as Vasunavadiya90]
+[2026-06-17 22:05:30,710: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/repos/Vasunavadiya90/kidney_disease_classification_project "HTTP/1.1 200 OK"]
+[2026-06-17 22:05:31,709: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2026-06-17 22:05:31,711: INFO: helpers: Initialized MLflow to track repo "Vasunavadiya90/kidney_disease_classification_project"]
+[2026-06-17 22:05:31,712: INFO: helpers: Repository Vasunavadiya90/kidney_disease_classification_project initialized!]
+[2026-06-17 22:05:31,712: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-06-17 22:05:31,714: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-17 22:05:31,716: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-17 22:05:31,716: INFO: common: created directory at: artifacts]
+[2026-06-17 22:05:31,716: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-06-17 22:05:31,717: INFO: data_ingestion: File already exists at artifacts/data_ingestion/data.zip, skipping download]
+[2026-06-17 22:05:32,131: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-06-17 22:05:32,131: INFO: main: *******************]
+[2026-06-17 22:05:32,131: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2026-06-17 22:05:32,132: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-17 22:05:32,133: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-17 22:05:32,134: INFO: common: created directory at: artifacts]
+[2026-06-17 22:05:32,134: INFO: common: created directory at: artifacts/prepare_base_model]
+[2026-06-17 22:05:32,458: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2026-06-17 22:05:32,586: WARNING: config: TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.]
+[2026-06-17 22:05:32,598: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2026-06-17 22:05:32,713: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2026-06-17 22:05:32,713: INFO: main: *******************]
+[2026-06-17 22:05:32,713: INFO: main: >>>>>> stage Training started <<<<<<]
+[2026-06-17 22:05:32,714: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-17 22:05:32,715: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-17 22:05:32,715: INFO: common: created directory at: artifacts]
+[2026-06-17 22:05:32,716: INFO: common: created directory at: artifacts\training]
+[2026-06-17 22:07:51,890: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2026-06-17 22:07:51,997: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2026-06-17 22:07:51,997: INFO: main: *******************]
+[2026-06-17 22:07:51,997: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2026-06-17 22:07:51,999: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-17 22:07:52,001: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-17 22:07:52,003: INFO: common: created directory at: artifacts]
+[2026-06-17 22:07:52,153: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2026-06-17 22:08:04,354: INFO: common: json file saved at: scores.json]
+[2026-06-17 22:08:04,355: INFO: common: json file saved at: scores.json]
+[2026-06-17 22:08:04,356: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2026-06-17 22:09:48,189: INFO: stage_04_model_evaluation_pipeline: *******************]
+[2026-06-17 22:09:48,189: INFO: stage_04_model_evaluation_pipeline: >>>>>> stage Evaluation stage started <<<<<<]
+[2026-06-17 22:09:48,190: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-17 22:09:48,191: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-17 22:09:48,191: INFO: common: created directory at: artifacts]
+[2026-06-17 22:09:48,369: WARNING: config: TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.]
+[2026-06-17 22:09:48,371: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2026-06-17 22:10:21,559: INFO: common: json file saved at: scores.json]
+[2026-06-17 22:10:21,559: INFO: common: json file saved at: scores.json]
+[2026-06-17 22:10:22,676: ERROR: stage_04_model_evaluation_pipeline: Detected out-of-date database schema (found version b7e4c1a90f23, but expected da6fb0208061). Take a backup of your database, then run 'mlflow db upgrade <database_uri>' to migrate your database to the latest schema. NOTE: schema migration may result in database downtime - please consult your database's documentation for more detail.]
+Traceback (most recent call last):
+  File "E:\data science\Deep_learning_project\kidney_disease_classification\src\cnnClassifier\pipeline\stage_04_model_evaluation_pipeline.py", line 32, in <module>
+    obj.main()
+    ~~~~~~~~^^
+  File "E:\data science\Deep_learning_project\kidney_disease_classification\src\cnnClassifier\pipeline\stage_04_model_evaluation_pipeline.py", line 22, in main
+    evaluation.log_into_mlflow()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "E:\data science\Deep_learning_project\kidney_disease_classification\src\cnnClassifier\components\model_evaluation.py", line 61, in log_into_mlflow
+    mlflow.set_experiment("kidney_disease_classification")
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\data science\Deep_learning_project\kidney_disease_classification\kidney\Lib\site-packages\mlflow\tracking\fluent.py", line 203, in set_experiment
+    client = TrackingServiceClient(_resolve_tracking_uri())
+  File "E:\data science\Deep_learning_project\kidney_disease_classification\kidney\Lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 99, in __init__
+    self.store
+  File "E:\data science\Deep_learning_project\kidney_disease_classification\kidney\Lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 103, in store
+    return utils._get_store(self.tracking_uri)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "E:\data science\Deep_learning_project\kidney_disease_classification\kidney\Lib\site-packages\mlflow\tracking\_tracking_service\utils.py", line 270, in _get_store
+    return _tracking_store_registry.get_store(store_uri, artifact_uri)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\data science\Deep_learning_project\kidney_disease_classification\kidney\Lib\site-packages\mlflow\tracking\_tracking_service\registry.py", line 45, in get_store
+    return self._get_store_with_resolved_uri(resolved_store_uri, artifact_uri)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\data science\Deep_learning_project\kidney_disease_classification\kidney\Lib\site-packages\mlflow\tracking\_tracking_service\registry.py", line 56, in _get_store_with_resolved_uri
+    return builder(store_uri=resolved_store_uri, artifact_uri=artifact_uri)
+  File "E:\data science\Deep_learning_project\kidney_disease_classification\kidney\Lib\site-packages\mlflow\tracking\_tracking_service\utils.py", line 201, in _get_sqlalchemy_store
+    return store_cls(store_uri, artifact_uri)
+  File "E:\data science\Deep_learning_project\kidney_disease_classification\kidney\Lib\site-packages\mlflow\store\tracking\sqlalchemy_store.py", line 372, in __init__
+    mlflow.store.db.utils._verify_schema(self.engine)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\data science\Deep_learning_project\kidney_disease_classification\kidney\Lib\site-packages\mlflow\store\db\utils.py", line 121, in _verify_schema
+    raise MlflowException(
+    ...<6 lines>...
+    )
+mlflow.exceptions.MlflowException: Detected out-of-date database schema (found version b7e4c1a90f23, but expected da6fb0208061). Take a backup of your database, then run 'mlflow db upgrade <database_uri>' to migrate your database to the latest schema. NOTE: schema migration may result in database downtime - please consult your database's documentation for more detail.
+[2026-06-17 22:12:18,671: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2026-06-17 22:12:18,680: INFO: helpers: Accessing as Vasunavadiya90]
+[2026-06-17 22:12:22,504: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/repos/Vasunavadiya90/kidney_disease_classification_project "HTTP/1.1 200 OK"]
+[2026-06-17 22:12:23,524: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2026-06-17 22:12:23,528: INFO: helpers: Initialized MLflow to track repo "Vasunavadiya90/kidney_disease_classification_project"]
+[2026-06-17 22:12:23,530: INFO: helpers: Repository Vasunavadiya90/kidney_disease_classification_project initialized!]
+[2026-06-17 22:12:23,530: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-06-17 22:12:23,534: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-17 22:12:23,538: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-17 22:12:23,540: INFO: common: created directory at: artifacts]
+[2026-06-17 22:12:23,540: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-06-17 22:12:23,541: INFO: data_ingestion: File already exists at artifacts/data_ingestion/data.zip, skipping download]
+[2026-06-17 22:12:24,007: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-06-17 22:12:24,007: INFO: main: *******************]
+[2026-06-17 22:12:24,007: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2026-06-17 22:12:24,008: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-17 22:12:24,009: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-17 22:12:24,009: INFO: common: created directory at: artifacts]
+[2026-06-17 22:12:24,009: INFO: common: created directory at: artifacts/prepare_base_model]
+[2026-06-17 22:12:24,296: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2026-06-17 22:12:24,446: WARNING: config: TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.]
+[2026-06-17 22:12:24,460: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2026-06-17 22:12:24,559: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2026-06-17 22:12:24,559: INFO: main: *******************]
+[2026-06-17 22:12:24,559: INFO: main: >>>>>> stage Training started <<<<<<]
+[2026-06-17 22:12:24,560: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-17 22:12:24,561: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-17 22:12:24,562: INFO: common: created directory at: artifacts]
+[2026-06-17 22:12:24,562: INFO: common: created directory at: artifacts\training]
+[2026-06-17 22:15:52,462: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2026-06-17 22:15:52,473: INFO: helpers: Accessing as Vasunavadiya90]
+[2026-06-17 22:15:56,288: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/repos/Vasunavadiya90/kidney_disease_classification_project "HTTP/1.1 200 OK"]
+[2026-06-17 22:15:57,374: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2026-06-17 22:15:57,376: INFO: helpers: Initialized MLflow to track repo "Vasunavadiya90/kidney_disease_classification_project"]
+[2026-06-17 22:15:57,377: INFO: helpers: Repository Vasunavadiya90/kidney_disease_classification_project initialized!]
+[2026-06-17 22:15:57,378: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-06-17 22:15:57,379: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-17 22:15:57,381: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-17 22:15:57,381: INFO: common: created directory at: artifacts]
+[2026-06-17 22:15:57,382: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-06-17 22:15:57,382: INFO: data_ingestion: File already exists at artifacts/data_ingestion/data.zip, skipping download]
+[2026-06-17 22:15:57,749: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-06-17 22:15:57,749: INFO: main: *******************]
+[2026-06-17 22:15:57,749: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2026-06-17 22:15:57,750: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-17 22:15:57,751: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-17 22:15:57,751: INFO: common: created directory at: artifacts]
+[2026-06-17 22:15:57,751: INFO: common: created directory at: artifacts/prepare_base_model]
+[2026-06-17 22:15:57,991: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2026-06-17 22:15:58,137: WARNING: config: TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.]
+[2026-06-17 22:15:58,148: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2026-06-17 22:15:58,231: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2026-06-17 22:15:58,231: INFO: main: *******************]
+[2026-06-17 22:15:58,231: INFO: main: >>>>>> stage Training started <<<<<<]
+[2026-06-17 22:15:58,232: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-17 22:15:58,233: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-17 22:15:58,233: INFO: common: created directory at: artifacts]
+[2026-06-17 22:15:58,233: INFO: common: created directory at: artifacts\training]
+[2026-06-17 22:16:32,196: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2026-06-17 22:16:32,274: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2026-06-17 22:16:32,275: INFO: main: *******************]
+[2026-06-17 22:16:32,275: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2026-06-17 22:16:32,276: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-17 22:16:32,276: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-17 22:16:32,277: INFO: common: created directory at: artifacts]
+[2026-06-17 22:16:32,396: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2026-06-17 22:16:41,861: INFO: common: json file saved at: scores.json]
+[2026-06-17 22:16:41,861: INFO: common: json file saved at: scores.json]
+[2026-06-17 22:17:05,643: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2026-06-17 22:21:11,472: INFO: stage_04_model_evaluation_pipeline: *******************]
+[2026-06-17 22:21:11,472: INFO: stage_04_model_evaluation_pipeline: >>>>>> stage Evaluation stage started <<<<<<]
+[2026-06-17 22:21:11,473: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-17 22:21:11,474: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-17 22:21:11,474: INFO: common: created directory at: artifacts]
+[2026-06-17 22:21:11,680: WARNING: config: TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.]
+[2026-06-17 22:21:11,682: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2026-06-17 22:21:21,509: INFO: common: json file saved at: scores.json]
+[2026-06-17 22:21:21,509: INFO: common: json file saved at: scores.json]
+[2026-06-17 22:21:22,009: ERROR: stage_04_model_evaluation_pipeline: Detected out-of-date database schema (found version b7e4c1a90f23, but expected da6fb0208061). Take a backup of your database, then run 'mlflow db upgrade <database_uri>' to migrate your database to the latest schema. NOTE: schema migration may result in database downtime - please consult your database's documentation for more detail.]
+Traceback (most recent call last):
+  File "E:\data science\Deep_learning_project\kidney_disease_classification\src\cnnClassifier\pipeline\stage_04_model_evaluation_pipeline.py", line 32, in <module>
+    obj.main()
+    ~~~~~~~~^^
+  File "E:\data science\Deep_learning_project\kidney_disease_classification\src\cnnClassifier\pipeline\stage_04_model_evaluation_pipeline.py", line 22, in main
+    evaluation.log_into_mlflow()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "E:\data science\Deep_learning_project\kidney_disease_classification\src\cnnClassifier\components\model_evaluation.py", line 63, in log_into_mlflow
+    mlflow.set_experiment("kidney_disease_classification")
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\data science\Deep_learning_project\kidney_disease_classification\kidney\Lib\site-packages\mlflow\tracking\fluent.py", line 203, in set_experiment
+    client = TrackingServiceClient(_resolve_tracking_uri())
+  File "E:\data science\Deep_learning_project\kidney_disease_classification\kidney\Lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 99, in __init__
+    self.store
+  File "E:\data science\Deep_learning_project\kidney_disease_classification\kidney\Lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 103, in store
+    return utils._get_store(self.tracking_uri)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "E:\data science\Deep_learning_project\kidney_disease_classification\kidney\Lib\site-packages\mlflow\tracking\_tracking_service\utils.py", line 270, in _get_store
+    return _tracking_store_registry.get_store(store_uri, artifact_uri)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\data science\Deep_learning_project\kidney_disease_classification\kidney\Lib\site-packages\mlflow\tracking\_tracking_service\registry.py", line 45, in get_store
+    return self._get_store_with_resolved_uri(resolved_store_uri, artifact_uri)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\data science\Deep_learning_project\kidney_disease_classification\kidney\Lib\site-packages\mlflow\tracking\_tracking_service\registry.py", line 56, in _get_store_with_resolved_uri
+    return builder(store_uri=resolved_store_uri, artifact_uri=artifact_uri)
+  File "E:\data science\Deep_learning_project\kidney_disease_classification\kidney\Lib\site-packages\mlflow\tracking\_tracking_service\utils.py", line 201, in _get_sqlalchemy_store
+    return store_cls(store_uri, artifact_uri)
+  File "E:\data science\Deep_learning_project\kidney_disease_classification\kidney\Lib\site-packages\mlflow\store\tracking\sqlalchemy_store.py", line 372, in __init__
+    mlflow.store.db.utils._verify_schema(self.engine)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\data science\Deep_learning_project\kidney_disease_classification\kidney\Lib\site-packages\mlflow\store\db\utils.py", line 121, in _verify_schema
+    raise MlflowException(
+    ...<6 lines>...
+    )
+mlflow.exceptions.MlflowException: Detected out-of-date database schema (found version b7e4c1a90f23, but expected da6fb0208061). Take a backup of your database, then run 'mlflow db upgrade <database_uri>' to migrate your database to the latest schema. NOTE: schema migration may result in database downtime - please consult your database's documentation for more detail.
+[2026-06-17 22:22:55,487: INFO: stage_04_model_evaluation_pipeline: *******************]
+[2026-06-17 22:22:55,488: INFO: stage_04_model_evaluation_pipeline: >>>>>> stage Evaluation stage started <<<<<<]
+[2026-06-17 22:22:55,489: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-17 22:22:55,490: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-17 22:22:55,490: INFO: common: created directory at: artifacts]
+[2026-06-17 22:22:55,725: WARNING: config: TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.]
+[2026-06-17 22:22:55,729: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2026-06-17 22:23:06,960: INFO: common: json file saved at: scores.json]
+[2026-06-17 22:23:06,961: INFO: common: json file saved at: scores.json]
+[2026-06-17 22:23:33,942: INFO: stage_04_model_evaluation_pipeline: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2026-06-17 22:24:45,446: INFO: stage_04_model_evaluation_pipeline: *******************]
+[2026-06-17 22:24:45,446: INFO: stage_04_model_evaluation_pipeline: >>>>>> stage Evaluation stage started <<<<<<]
+[2026-06-17 22:24:45,447: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-17 22:24:45,448: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-17 22:24:45,448: INFO: common: created directory at: artifacts]
+[2026-06-17 22:24:45,648: WARNING: config: TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.]
+[2026-06-17 22:24:45,650: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2026-06-17 22:25:12,739: INFO: common: json file saved at: scores.json]
+[2026-06-17 22:25:12,741: INFO: common: json file saved at: scores.json]
+[2026-06-17 22:26:03,899: INFO: stage_04_model_evaluation_pipeline: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2026-06-17 22:26:31,668: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2026-06-17 22:26:31,673: INFO: helpers: Accessing as Vasunavadiya90]
+[2026-06-17 22:26:33,367: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/repos/Vasunavadiya90/kidney_disease_classification_project "HTTP/1.1 200 OK"]
+[2026-06-17 22:26:34,262: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2026-06-17 22:26:34,263: INFO: helpers: Initialized MLflow to track repo "Vasunavadiya90/kidney_disease_classification_project"]
+[2026-06-17 22:26:34,264: INFO: helpers: Repository Vasunavadiya90/kidney_disease_classification_project initialized!]
+[2026-06-17 22:26:34,264: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-06-17 22:26:34,265: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-17 22:26:34,265: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-17 22:26:34,266: INFO: common: created directory at: artifacts]
+[2026-06-17 22:26:34,266: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-06-17 22:26:34,266: INFO: data_ingestion: File already exists at artifacts/data_ingestion/data.zip, skipping download]
+[2026-06-17 22:26:34,646: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-06-17 22:26:34,646: INFO: main: *******************]
+[2026-06-17 22:26:34,646: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2026-06-17 22:26:34,647: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-17 22:26:34,648: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-17 22:26:34,648: INFO: common: created directory at: artifacts]
+[2026-06-17 22:26:34,648: INFO: common: created directory at: artifacts/prepare_base_model]
+[2026-06-17 22:26:34,891: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2026-06-17 22:26:34,994: WARNING: config: TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.]
+[2026-06-17 22:26:35,004: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2026-06-17 22:26:35,085: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2026-06-17 22:26:35,085: INFO: main: *******************]
+[2026-06-17 22:26:35,086: INFO: main: >>>>>> stage Training started <<<<<<]
+[2026-06-17 22:26:35,086: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-17 22:26:35,087: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-17 22:26:35,088: INFO: common: created directory at: artifacts]
+[2026-06-17 22:26:35,088: INFO: common: created directory at: artifacts\training]
+[2026-06-17 22:27:07,918: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2026-06-17 22:27:07,997: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2026-06-17 22:27:07,998: INFO: main: *******************]
+[2026-06-17 22:27:07,998: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2026-06-17 22:27:07,999: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-17 22:27:08,000: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-17 22:27:08,000: INFO: common: created directory at: artifacts]
+[2026-06-17 22:27:08,134: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2026-06-17 22:27:17,610: INFO: common: json file saved at: scores.json]
+[2026-06-17 22:27:17,610: INFO: common: json file saved at: scores.json]
+[2026-06-17 22:27:58,243: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]

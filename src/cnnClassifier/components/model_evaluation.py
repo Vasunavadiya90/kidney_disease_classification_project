@@ -56,8 +56,9 @@ class Evaluation:
 
     
     def log_into_mlflow(self):
-        # Use DagsHub tracking (already initialized in main.py)
-        # Set or create experiment
+        # Use DagsHub remote backend from environment variables (.env file)
+        # The URI and credentials are set via load_dotenv() at the top of this file
+        
         mlflow.set_experiment("kidney_disease_classification")
         
         try:
@@ -66,13 +67,10 @@ class Evaluation:
                 mlflow.log_metrics(
                     {"loss": self.score[0], "accuracy": self.score[1]}
                 )
-                # Log model artifacts
                 mlflow.keras.log_model(self.model, "model")
-                print("URI:", os.getenv("MLFLOW_TRACKING_URI"))
-                print("User:", os.getenv("MLFLOW_TRACKING_USERNAME"))
-                print("Tracking URI:", mlflow.get_tracking_uri())
-                print("MLflow logging successful!")
-                
+                print("✓ MLflow logging successful (DagsHub Remote)!")
+                print(f"Tracking URI: {mlflow.get_tracking_uri()}")
+
         except Exception as e:
-            print(f"Warning: MLflow logging failed: {e}")
+            print(f"✗ Warning: MLflow logging failed: {e}")
             print("Model evaluation completed, but MLflow tracking is unavailable.")
