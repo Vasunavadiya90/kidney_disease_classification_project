@@ -708,3 +708,12 @@ x==========x]
 [2026-06-17 21:39:41,555: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
 
 x==========x]
+[2026-06-17 21:44:41,174: INFO: stage_01_data_ingestion_pipeline: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-06-17 21:44:41,175: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-17 21:44:41,176: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-17 21:44:41,176: INFO: common: created directory at: artifacts]
+[2026-06-17 21:44:41,176: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-06-17 21:44:41,176: INFO: data_ingestion: File already exists at artifacts/data_ingestion/data.zip, skipping download]
+[2026-06-17 21:44:41,581: INFO: stage_01_data_ingestion_pipeline: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
