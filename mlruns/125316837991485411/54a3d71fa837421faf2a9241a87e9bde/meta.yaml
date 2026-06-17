@@ -1,0 +1,14 @@
+artifact_uri: file:E:/data science/Deep_learning_project/kidney_disease_classification/mlruns/125316837991485411/54a3d71fa837421faf2a9241a87e9bde/artifacts
+end_time: 1781710983960
+entry_point_name: ''
+experiment_id: '125316837991485411'
+lifecycle_stage: active
+run_id: 54a3d71fa837421faf2a9241a87e9bde
+run_name: persistent-conch-224
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1781710947943
+status: 3
+tags: []
+user_id: vasunavadiya90

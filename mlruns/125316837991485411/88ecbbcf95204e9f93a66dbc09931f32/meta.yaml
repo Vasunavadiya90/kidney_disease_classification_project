@@ -1,0 +1,14 @@
+artifact_uri: file:E:/data science/Deep_learning_project/kidney_disease_classification/mlruns/125316837991485411/88ecbbcf95204e9f93a66dbc09931f32/artifacts
+end_time: 1781709631079
+entry_point_name: ''
+experiment_id: '125316837991485411'
+lifecycle_stage: active
+run_id: 88ecbbcf95204e9f93a66dbc09931f32
+run_name: luminous-wasp-767
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1781709610563
+status: 3
+tags: []
+user_id: vasunavadiya90

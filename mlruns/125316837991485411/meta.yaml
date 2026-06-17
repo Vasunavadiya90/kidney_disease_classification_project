@@ -1,0 +1,9 @@
+artifact_location: file:E:/data science/Deep_learning_project/kidney_disease_classification/mlruns/125316837991485411
+creation_time: 1781709610201
+effective_trace_archival_retention: null
+experiment_id: '125316837991485411'
+last_update_time: 1781709610201
+lifecycle_stage: active
+name: kidney_disease_classification
+trace_location: null
+workspace: default

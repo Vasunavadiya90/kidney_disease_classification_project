@@ -1,0 +1,14 @@
+artifact_uri: file:E:/data science/Deep_learning_project/kidney_disease_classification/mlruns/125316837991485411/6101a8d1d34846bbabe9d7f13da786c4/artifacts
+end_time: 1781709785266
+entry_point_name: ''
+experiment_id: '125316837991485411'
+lifecycle_stage: active
+run_id: 6101a8d1d34846bbabe9d7f13da786c4
+run_name: gregarious-eel-264
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1781709769497
+status: 3
+tags: []
+user_id: vasunavadiya90
