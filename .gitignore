@@ -3,7 +3,7 @@ kidney/
 venv/
 
 # Environment Variables
-.env
+.env/
 
 # MLflow
 mlruns/
